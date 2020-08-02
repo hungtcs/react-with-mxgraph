@@ -1,3 +1,20 @@
+React With mxGraph
+====
+
+a demo project of React and mxGraph.
+
+### Run This Demo
+
+```
+git clone --recursive https://github.com/hungtcs/react-with-mxgraph.git
+cd react-with-mxgraph
+npm install
+npm start
+```
+
+-----------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

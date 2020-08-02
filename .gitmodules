@@ -1,0 +1,3 @@
+[submodule "src/types/mxgraph-type-definitions"]
+	path = src/types/mxgraph-type-definitions
+	url = https://github.com/hungtcs/mxgraph-type-definitions.git

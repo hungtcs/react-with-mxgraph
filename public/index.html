@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <base href="./" />
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -39,5 +40,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript">
+      window.mxBasePath = 'lib/mxgraph/javascript/src';
+      window.mxLoadResources = false;
+    </script>
+    <script src="%PUBLIC_URL%/lib/mxgraph/javascript/mxClient.min.js"></script>
   </body>
 </html>
